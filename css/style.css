@@ -1,0 +1,63 @@
+body {
+	background-image: url(../images/background.jpg);
+	background-size: cover;
+	font-size: 1em;
+}
+body, input[type="text"], input[type="password"], input[type="submit"] {
+	font-family: "Segoe UI";
+}
+#container_1 {
+	width: 300px;
+	margin: 0 auto;
+}
+input[type="text"], input[type="password"], input[type="submit"] {
+	border-radius: 2px;
+	border: 1px solid #B1AFAF;
+	font-size: .9em;
+}
+input[type="text"], input[type="password"] {
+	padding: .4em;
+}
+input[type="submit"] {
+	padding: 4px;
+	min-width: 70px;
+	cursor: pointer;
+	text-align: center;
+}
+.form-login {
+	width: 262px;
+	padding-left: 1.9em !important;
+	margin-left: -25px;
+}
+.form-login:focus, .form-login:hover, .button:hover {
+	border: 1px solid #080CD1;
+}
+.icon-row {
+	z-index: 10;
+	position: relative;
+	display: inline-block;
+	margin-left: 10px;
+}
+.row {
+	clear: both;
+	margin-bottom: 1em;
+}
+.row-space-1, .row-space {
+	margin-bottom: 15px;
+}
+.row-space {
+	border-top: 1px dotted #B1AFAF;
+}
+h3 {
+	line-height: 0.5;
+	padding-top: 30px;
+}
+#fLogin {
+	width: 350px;
+	margin: 0 auto;
+	min-height: 250px;
+	border: none;
+	border-radius: 5px;
+	background-color: #FFFFFF;
+	box-shadow: 0 0 60px rgba(0, 0, 0, 0.5), 0 1px 0 rba(255, 255, 255, 0.9) inset;
+}g

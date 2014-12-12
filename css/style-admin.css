@@ -1,0 +1,192 @@
+body {
+	font-family: "Segoe UI";
+	font-size: 1em;
+}
+a, a:visited {
+	text-decoration: none;
+	color: #000000;
+}
+#left-column {
+	width: 20% !important;
+	margin-right: 20px;
+	margin-top: -18px;
+	margin-left: 2px;
+}
+#content {
+	width: 78% !important;
+}
+#header, #body, #footer {
+	clear: both;
+	margin-bottom: 15px;
+}
+#header {
+	padding: 10px 15px;
+	background-color: #C5C3C3;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+#body {
+	margin-top: 68px;
+}
+#footer {
+	text-align: center;
+}
+#header-title,
+#left-column, #content {
+	float: left;
+}
+#login-info {
+	float: right;
+	margin-right: 30px;
+	margin-top: 7px;
+}
+#header-title {
+	margin-top: 0;
+}
+
+/*-------------------- Styling untuk Konten ----------------------*/
+.fArticle {
+	margin: 15px 0;
+}
+.half-column-title {
+	list-style-type: none;
+	margin: 8px 10px 8px -30px;
+}
+ul.half-column-title li {
+	border-bottom: 1px solid #080CD1;
+	height: 33px;
+}
+.menu {
+	text-transform: uppercase;
+	font-family: "Trebuchet MS" !important;
+	font-weight: 500;
+	color: #0088CC;
+}
+.half-column {
+	width: 47.8% !important;
+	float: left;
+	border-radius: 5px;
+	border: 1px solid #B1AFAF;
+	margin: 10px;
+	padding-bottom: 10px;
+}
+.half-column-left, .half-column-right {
+	padding: 5px 10px 5px 10px;
+	margin-left: -10px;
+	float: left !important;
+}
+.half-column-left {
+	width: 75%;
+}
+.half-column-right {
+	width: 20%;
+}
+.info {
+	color: #0088CC;
+	font-size: 600;
+}
+
+/*---------------------- Menu Navigasi ---------------------*/
+.icon {
+	width: 12px;
+	height: 12px;
+	margin-right: 10px;
+	margin-left: 8px;
+}
+#nav {
+	list-style: none;
+	margin-left: -40px;
+}
+#nav li, #nav li ul li {
+	padding: 5px 0 5px 5px;
+}
+#nav li ul {
+	list-style: none;
+}
+#nav li ul li {
+	margin-left: -40px;
+}
+#nav li ul li:hover, #nav li ul li:active {
+	background-color: #B1AFAF;
+}
+
+
+.msg {
+	padding:10px;
+	padding-left:35px;
+	border: 2px solid #09DD07;
+}
+.done {
+	background:url("../images/icon-success.png") 10px 50% no-repeat;
+}
+
+.profile:hover {
+	text-decoration: underline;
+}
+
+/*------------------ Inputan ----------------*/
+input[type="text"], input[type="password"], input[type="button"], input[type="submit"],
+input[type="reset"], textarea, select {
+	border-radius: 2px;
+	border: 1px solid #B1AFAF;
+	font-size: .9em;
+}
+input[type="text"]:hover, input[type="password"]:hover, input[type="button"]:hover, input[type="submit"]:hover,
+input[type="text"]:focus, input[type="password"]:focus, input[type="button"]:focus, input[type="submit"]:focus,
+input[type="reset"]:focus, input[type="reset"]:hover, textarea:focus, textarea:hover, select:hover, select:focus {
+	border: 1px solid #080CD1;
+}
+input[type="text"], input[type="password"], input[type="button"], input[type="reset"], textarea, select {
+	padding: .4em;
+}
+input[type="text"], input[type="password"] {
+	width: 25em;
+}
+select {
+	width: 26em;
+}
+input[type="submit"], input[type="button"], input[type="reset"] {
+	padding: 4px;
+	min-width: 70px;
+	cursor: pointer;
+	text-align: center;
+}
+textarea {
+	width: 99%;
+	resize: none;
+	height: 20em;
+}
+
+.left-form, .right-form {
+	float: left;
+}
+.left-form {
+	width: 73%;
+	margin-right: 20px; 
+}
+.right-form {
+	width: 23%;
+}
+.row-space, .row {
+	margin-bottom: 15px;
+}
+.readonly {
+	background: #EEEEEE;
+	cursor: not-allowed;
+}
+.data-list thead th, .data-list tr td {
+	height: 25px;
+	padding: 5px;
+}
+.data-list thead th {
+	background-color: #EEEEEE;
+}
+.data-list tr td {
+	border-bottom: 1px solid #080DC1;
+}
+.data-list {
+	width: 100%;
+	margin-top: 20px;
+}
